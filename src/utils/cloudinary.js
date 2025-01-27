@@ -25,3 +25,5 @@ import fs from 'fs';
             fs.unlinkSync(localFilePath) //remove temp file from local as upload failed
         }
     }
+
+    export {uploadOnCloudinary}
